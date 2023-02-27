@@ -1,0 +1,43 @@
+/*
+NOTICE!
+
+This file is here to change the colours of the page. Let Orison know if you are 
+unsure of what changes to make.
+
+*/
+
+
+/* -------- Selectors for All Webpages -------- */
+body
+{
+    background-color: #222222;
+}
+
+
+h1, h3, h4, p
+{
+    color: white;
+}
+
+/* -------- Horizontal Dropdown Menu -------- */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    width: 50%;
+    display: inline;
+    margin: 10px; /* Seperates the margin between each block of text.*/
+    border: 5px solid white; /* This is the border itself, you can make the border visible or invisible. */
+    padding: 10px; /* Creates space between the text and the border. */
+    background-color: #555555;
+}
+
+/* -------- Footer of the page -------- */
+footer 
+{
+    color: #742222
+}
