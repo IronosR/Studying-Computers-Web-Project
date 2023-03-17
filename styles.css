@@ -14,30 +14,130 @@ body
 }
 
 
-h1, h3, h4, p
+h1, h2, h3, h4, p, ul, footer
 {
     color: white;
+    text-align: center;
+    font-family: heebo, verdana, sans-serif;
+}
+
+.header
+{
+    margin: 0px;
+    border: 0px;
+    padding: 30px;
+    background-color: #111111;
+    text-align: center;
+    
 }
 
 /* -------- Horizontal Dropdown Menu -------- */
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
 }
 
 li
 {
+    
+    float: center;
     width: 50%;
     display: inline;
-    margin: 10px; /* Seperates the margin between each block of text.*/
-    border: 5px solid white; /* This is the border itself, you can make the border visible or invisible. */
+    margin: 0px; /* Seperates the margin between each block of text.*/
+    border: 0px; /* This is the border itself, you can make the border visible or invisible. */
     padding: 10px; /* Creates space between the text and the border. */
     background-color: #555555;
+    
+}
+
+li a {
+    text-decoration: none;
+}
+
+li:hover
+{
+    background-color: #aaaaaa;
+    color: #000000;
+    border: 1px solid black'
+}
+
+.active {
+    background-color: #567e7e;
+    color: #000000;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/* Note, the update block is specifically for updates page. */
+.update_block {
+    background-color: #444444;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+
+/*------------------------FAQ PAGE------------------------*/
+
+/* Vertical Navigation Bar (for the FAQ page)*/
+body.faq{
+    background-image: url("pictures/question2.jpg");
+}
+div.side_bar {
+    background-color: #444444;
+    float: left;
+    width: 10%;
+    margin: 0;
+    margin-top: 30px;
+}
+
+div.side_bar li {
+    background-color: #777777;
+    border: 0px;
+    padding: 15%;
+    margin: 10px 10px 10px 10px;
+    float: left; 
+    text-decoration: none;
+}  
+div.side_bar a:hover:not(.active) { /*set background color when hover over tab to grey */
+    background-color: #555;
+    color: white;
+    border: 1px solid black'
+  }
+
+div.FAQ { /*Position on the page*/
+    margin-left: 15%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+  
+.question {
+        font-size: 27px;
+        color: white;
+        text-align: center;
+        font-family: heebo, verdana, sans-serif;
+    }
+
+
+.answer {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: heebo, verdana, sans-serif;
+}
+.face_photo{
+    margin-left: 38%;
 }
 
 /* -------- Footer of the page -------- */
 footer 
 {
-    color: #742222
+    color: #744444;
+    text-align: center;
+    
 }
+
